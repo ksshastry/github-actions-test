@@ -19,11 +19,3 @@ jobs:
           print(platform.processor())
         shell: python 
   
-  run-windows-commands:
-    runs-on: windows-lates
-    steps:
-      - name: Directory Powershell
-        run: Get-Location
-      - name: Directory Bash
-        run: pwd
-        shell: bash        
